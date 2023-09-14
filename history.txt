@@ -1,0 +1,118 @@
+    8  git config --list
+   10  git config --global init.defaultBrach main
+   11  git config --global init.defaultBranch main
+   12  git config --list
+   21  mkdir git_practice
+   22  cd git_practice
+   28  git init
+   31  git status
+   33  git status
+   34  git commit
+   35  git --help
+   36  git add file_1.txt 
+   37  git status'
+   39  git status
+   40  git commit
+   41  git status
+   42  git history
+   43  git log
+   46  cd git_practice/
+   50  git status
+   51  git add
+   52  git add .
+   53  git status
+   54  git commit -m 'create new files'
+   55  git status
+   56  git log
+   59  git statuts
+   60  git add file1.txt 
+   61  git commit 'file1.txt changes'
+   62  git commit -m 'file1.txt changes'
+   63  git add file2.txt 
+   64  git commit -m 
+   65  git commit -m 'file2.txt changes'
+   66  git log
+   69  cd stat386/git_practice/
+   71  git add .
+   75  git commit -m readme file
+   76  git commit -m 'readme file'
+   77  nano .gitignore
+   78  git add .
+   79  git commit -m 'gitignore file'
+   81  git status
+   83  git status
+   84  git branch features
+   85  git status
+   86  git branch
+   87  git switch features
+   88  git log
+   89  cd OneDrive/Documents/stat386/git_practice/
+   91  git add .
+   92  git commit -m 'new features'
+   93  git switch main
+   95  git add .
+   96  git commit -m 'more text in file1
+   97  git merge features
+   98  git log --oneline
+  103  git add .
+  104  git commit -m 'no new features'
+  105  git switch features
+  107  git add . 
+  108  git commit -m 'new text'
+  109  git switch main
+  110  git merge features
+  111  git merge features
+  112  git merge features
+  113  git merge features
+  114  git merge features
+  115  git merge features
+  116  git switch features
+  117  git merge --quit
+  118  git merge features
+  119  git switch features
+  120  git merge features
+  122  git branch -delete features
+  123  git branch --delete features
+  124  git merge features
+  125  git branch --D features
+  126  git branch
+  127  git branch -D features
+  128  git remote add origin ~git@github.com:csthomps/git-practice.git~
+  129  git push -u origin main
+  130  git remote add origin git@github.com:csthomps/git-practice.git
+  131  git remove origin
+  132  git add origin2 git@github.com:csthomps/git-practice.git
+  133  git remote add origin2 git@github.com:csthomps/git-practice.git
+  134  git push -u origin2 main
+  135  cd ../git_fork_practice
+  136  git clone [200~git@github.com:zyuexi2/git-practice-zyuexi2.git~
+  137  git clone git@github.com:zyuexi2/git-practice-zyuexi2.git
+  140  git branch feature-connor
+  142  git switch feature-connor
+  144  git add .
+  147  cd git-practice-zyuexi2/
+  152  rm .git/
+  153  rm -r .git/
+  159  git add .
+  162  mkdir git_fork_practice
+  163  git clone git@github.com:zyuexi2/git-practice-zyuexi2.git
+  165  cd git-practice-zyuexi2/
+  167  git branch feature-connor
+  169  git add .
+  170  git commit -m 'NEW FILE!!!!'
+  171  git push origin2 feature-connor
+  172  git push origin1 feature-connor
+  173  git push origin feature-connor
+  174  git remote add origin git@github.com:csthomps/git-practice-zyuexi2.git
+  175  git remote add origin3 git@github.com:csthomps/git-practice-zyuexi2.git
+  176  git push origin3 feature-connor
+  178  git status
+  179  git push origin3 feature-connor
+  180  git pull
+  181  git log --oneline > gitlog.txt
+  183  rm gitlog.txt
+  186  git log --oneline > gitlog.txt
+  187  cd git_practice/
+  188  git log --oneline > gitlog.txt
+  190  cat gitlog.txt
+  191   history | grep git > history.txt
