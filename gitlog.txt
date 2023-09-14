@@ -1,0 +1,10 @@
+f5fb847 no new features
+507d636 Merge branch 'features' merging the two branches
+a2f80c4 more text in file1 ;
+a36dd4d new features
+1dfd7f9 gitignore file
+41151eb readme file
+f9c9886 file2.txt changes
+d38341e file1.txt changes
+e117fac create new files
+cf25644 file 1
